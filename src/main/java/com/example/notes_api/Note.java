@@ -12,13 +12,13 @@ public class Note {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String texto;
+    private String text;
 
     public Note() {
     }
 
-    public Note(String texto) {
-        this.texto = texto;
+    public Note(String text) {
+        this.text = text;
     }
 
     public Long getId() {
@@ -29,11 +29,11 @@ public class Note {
         this.id = id;
     }
 
-    public String getTexto() {
-        return texto;
+    public String getText() {
+        return text;
     }
 
-    public void setTexto(String texto) {
-        this.texto = texto;
+    public void setText(String text) {
+        this.text = text;
     }
 }
